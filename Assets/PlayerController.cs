@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { 
         if (Input.GetKey(KeyCode.UpArrow))
         {
             rigidbody.AddForce(new Vector3(0, 0, 1) * power);
